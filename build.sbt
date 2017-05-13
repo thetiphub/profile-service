@@ -13,9 +13,3 @@ libraryDependencies ++= Seq(
   ws,
   "joda-time" % "joda-time" % "2.9.7"
 )
-
-// Adds additional packages into Twirl
-//TwirlKeys.templateImports += "com.thetiphub.controllers._"
-
-// Adds additional packages into conf/routes
-// play.sbt.routes.RoutesKeys.routesImport += "com.thetiphub.binders._"
