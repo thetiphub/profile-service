@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6396adc-ca7f-4b47-8c96-83b422e98385" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.g8/form/app/controllers/$model__Camel$Controller.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.g8/form/app/views/$model__camel$/form.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.g8/form/default.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.g8/form/generated-test/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.g8/form/generated-test/controllers/$model__Camel$ControllerSpec.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/HomeController.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/main.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/HomeControllerSpec.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/connectors/AuthServiceConnector.scala" afterPath="$PROJECT_DIR$/app/connectors/AuthServiceConnector.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ProfileController.scala" afterPath="$PROJECT_DIR$/app/controllers/ProfileController.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/scaffold.sbt" afterPath="$PROJECT_DIR$/project/scaffold.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -65,14 +49,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthServiceConnector.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthServiceConnector.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/connectors/AuthServiceConnector.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="660">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="e#20#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/app/services/Http/Http.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -350,6 +344,7 @@
         <option value="$PROJECT_DIR$/app/controllers/ProfileController.scala" />
         <option value="$PROJECT_DIR$/app/services/Http/Http.scala" />
         <option value="$PROJECT_DIR$/app/connectors/AuthServiceConnector.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -943,18 +938,26 @@
     <entry file="file://$PROJECT_DIR$/app/services/Http/Http.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/connectors/AuthServiceConnector.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="660">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="e#20#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
