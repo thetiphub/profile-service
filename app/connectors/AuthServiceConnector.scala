@@ -21,7 +21,9 @@ trait TAuthServiceConnector {
       "password" -> password
     )
 
-    http.POST("http://localhost:9000/user", data)
+    http.POST("http://localhost:9000/user", data) map { a =>
+      println(s"\n\n\n\n\n\n success $a \n\n\n\n\n")
+    }
   }
 
   def verify() = Future[String] {

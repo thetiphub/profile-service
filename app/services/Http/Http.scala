@@ -26,7 +26,6 @@ trait HttpPost extends HttpMethod {
     client
       .url(url)
       .post(data)
-      .map(_.asInstanceOf[A])
   }
 }
 
