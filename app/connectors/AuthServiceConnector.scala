@@ -5,7 +5,7 @@ import play.api.libs.ws._
 import play.api.libs.json._
 import services.{Http, WSHttp}
 
-import scala.concurrent.ExecutionContext
+import scala.concurrent.ExecutionContext.Implicits.global
 
 class AuthServiceConnector(ws: WSClient) extends TAuthServiceConnector {
   val http: Http = new WSHttp(ws)
@@ -14,7 +14,7 @@ class AuthServiceConnector(ws: WSClient) extends TAuthServiceConnector {
 trait TAuthServiceConnector {
   val http: Http
 
-  def create(email: String, password: String)(implicit ec: ExecutionContext) = {
+  def create(email: String, password: String) = {
     val data = Json.obj(
       "email" -> email,
       "username" -> "unk",
@@ -24,7 +24,7 @@ trait TAuthServiceConnector {
     http.POST("http://localhost:9000/user", data)
   }
 
-  def verify(implicit ec: ExecutionContext) = Future[String] {
+  def verify() = Future[String] {
     ???
   }
 }

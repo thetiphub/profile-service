@@ -1,6 +1,9 @@
 package services
 
+import play.api.http.Writeable
 import play.api.libs.ws.WSClient
+
+import scala.concurrent.ExecutionContext.Implicits.global
 
 class WSHttp (ws: WSClient) extends Http {
   val client: WSClient = ws
@@ -19,7 +22,7 @@ trait HttpGet extends HttpMethod {
 }
 
 trait HttpPost extends HttpMethod {
-  def POST[A](url: String, data: A) = {
+  def POST[A: Writeable](url: String, data: A) = {
     client
       .url(url)
       .post(data)
@@ -28,7 +31,7 @@ trait HttpPost extends HttpMethod {
 }
 
 trait HttpPut extends HttpMethod {
-  def PUT[A](url: String, data: A) = {
+  def PUT[A: Writeable](url: String, data: A) = {
     client
       .url(url)
       .put(data)

@@ -18,7 +18,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
  */
 @Singleton
 class ProfileController @Inject()(ws: WSClient) extends Controller {
-    val authServiceConnector: AuthServiceConnector = new AuthServiceConnector()
+    val authServiceConnector: AuthServiceConnector = new AuthServiceConnector(ws)
     case class UserData(firstName: String, lastName: String, dateOfBirth: DateTime, email: String, password: String)
 
     val userForm = Form(
